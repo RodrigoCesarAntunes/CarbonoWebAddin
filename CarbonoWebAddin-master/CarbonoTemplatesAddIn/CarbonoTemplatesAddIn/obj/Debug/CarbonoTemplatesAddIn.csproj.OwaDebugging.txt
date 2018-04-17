@@ -1,0 +1,7 @@
+False
+eed946e7-8eeb-43cf-89f3-a33c79420163dc1b38f0-e487-44a5-91a2-d8f3718f80f9
+{08116c2d-d813-4836-bcb1-36317697aea6}{d9a54696-8cd1-47de-a21d-c38804ff18ed}
+{1f33f6a3-4822-4bf5-8bdb-73222dc99564}
+1.0.0.0
+CarbonoTemplatesAddIn
+_layouts/15/

@@ -1,0 +1,110 @@
+﻿
+
+body {
+    max-width: 300px;
+    min-width: 200px;
+}
+
+.container {
+    margin: 10px;
+}
+
+
+.logo {
+        width:110px;        
+}
+
+
+
+.goBack {
+    float: left;
+    text-decoration: none;
+    color: #5882FA;
+}
+
+h3 {
+    font-family: Calibri;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+}
+
+p {
+    font-family: Calibri;
+    font-size: 12px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 10px;
+}
+
+.buttons-container{
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-pages{
+    padding-top: 4px;
+}
+
+.button-design {
+    height: 29px;
+    width: 190px;
+    float: left;
+    text-align: center;
+}
+
+.button-collor-blue {
+    text-decoration: none;
+    background-color: #0174DF;
+    color: white;
+}
+
+.button-collor-green {
+    text-decoration: none;
+    background-color: #00B050;
+    color: white;
+}
+
+.button-icon {
+    height: 27px;
+    width: 27px;
+    background-color: white;
+    float: left;
+    border: 1px solid;
+}
+.button-border-blue {
+    border-color: #0174DF;
+}
+
+.button-border-green {
+    border-color: #00B050;
+}
+.button-img-icon {
+    margin-top: 2px;
+    width: 22px;
+    height: 22px;
+}
+
+.button-img-icon-excel {
+    margin-top: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+.button {
+    width: 221px;
+    height: 30px;
+    padding-top: 2px;
+}
+
+.button-text {
+    text-align: center;
+    margin-top:7px;
+    font-family: Calibri;
+    font-size: 13px;
+    
+}
