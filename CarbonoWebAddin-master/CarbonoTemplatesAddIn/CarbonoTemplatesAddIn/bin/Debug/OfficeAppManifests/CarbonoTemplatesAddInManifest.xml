@@ -25,7 +25,7 @@
   <SupportUrl DefaultValue="http://www.contoso.com" />
   <!-- Domínios que serão permitidos ao navegar. Por exemplo, se você usar ShowTaskpane e, em seguida, tiver um link href, a navegação só será permitida se o domínio estiver na lista. -->
   <AppDomains>
-    <AppDomain>AppDomain1</AppDomain>
+    <AppDomain>https://microsoft-carbonotemplatesaddin.carbonocorporate.com/</AppDomain>
     <AppDomain>AppDomain2</AppDomain>
     <AppDomain>AppDomain3</AppDomain>
   </AppDomains>

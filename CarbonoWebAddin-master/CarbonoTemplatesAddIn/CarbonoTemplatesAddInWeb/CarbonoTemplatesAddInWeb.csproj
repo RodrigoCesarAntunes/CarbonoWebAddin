@@ -195,7 +195,7 @@
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Functions\FunctionFile.html" />
     <Content Include="Functions\FunctionFile.js" />
-    <Content Include="Index.html" />
+    <Content Include="index.html" />
     <Content Include="Home.js" />
     <Content Include="Scripts\Download\download.js" />
     <Content Include="Scripts\FabricUI\MessageBanner.js" />
