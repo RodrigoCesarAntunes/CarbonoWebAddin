@@ -94,7 +94,7 @@
     <None Include="packages.config" />
     <Content Include="Images\CarbonoIcon32x32.png" />
     <Content Include="Images\CarbonoIcon80x80.png" />
-    <Content Include="Images\excel-logo.png" />
+    <Content Include="Images\Excel_logo.png" />
     <Content Include="Images\Logo.png" />
     <Content Include="Images\Logo_button_22x22.png" />
     <Content Include="Pages\About.html" />
@@ -196,7 +196,7 @@
     <Content Include="Functions\FunctionFile.html" />
     <Content Include="Functions\FunctionFile.js" />
     <Content Include="index.html" />
-    <Content Include="Home.js" />
+    <Content Include="home.js" />
     <Content Include="Scripts\Download\download.js" />
     <Content Include="Scripts\FabricUI\MessageBanner.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
