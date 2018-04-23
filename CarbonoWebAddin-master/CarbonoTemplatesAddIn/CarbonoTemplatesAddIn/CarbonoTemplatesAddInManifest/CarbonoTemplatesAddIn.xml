@@ -20,14 +20,12 @@
   <DisplayName DefaultValue="Carbono Templates" />
   <Description DefaultValue="Templates for Carbono"/>
   <!-- Ícone para o suplemento. Usado nas telas de instalação e na caixa de diálogo de suplementos. -->
-  <IconUrl DefaultValue="~remoteAppUrl/Images/CarbonoIcon32x32.png" /> <!-- ~remoteAppUrl/Images/Button32x32.png -->
+  <IconUrl DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/Images/CarbonoIcon32x32.png" /> <!-- ~remoteAppUrl/Images/Button32x32.png -->
 
   <SupportUrl DefaultValue="http://www.contoso.com" />
   <!-- Domínios que serão permitidos ao navegar. Por exemplo, se você usar ShowTaskpane e, em seguida, tiver um link href, a navegação só será permitida se o domínio estiver na lista. -->
   <AppDomains>
     <AppDomain>https://microsoft-carbonotemplatesaddin.carbonocorporate.com/</AppDomain>
-    <AppDomain>AppDomain2</AppDomain>
-    <AppDomain>AppDomain3</AppDomain>
   </AppDomains>
   <!--Fim – Configurações Básicas. -->
   
@@ -36,7 +34,7 @@
     <Host Name="Workbook" />
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="~remoteAppUrl/index.html" /> <!-- Check-->
+    <SourceLocation DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com" /> <!-- Check-->
   </DefaultSettings>
   <!-- Fim – integração de Modo TaskPane.  -->
 
@@ -121,7 +119,7 @@
       </bt:Images>
       <bt:Urls>
         <bt:Url id="Contoso.DesktopFunctionFile.Url" DefaultValue="~remoteAppUrl/Functions/FunctionFile.html" />
-        <bt:Url id="Contoso.Taskpane.Url" DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/" /> /<!--Check-->
+        <bt:Url id="Contoso.Taskpane.Url" DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/" /> <!--Check-->
         <bt:Url id="Contoso.GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812" />
       </bt:Urls>
       <!-- número máximo de caracteres em ShortStrings = 125. -->

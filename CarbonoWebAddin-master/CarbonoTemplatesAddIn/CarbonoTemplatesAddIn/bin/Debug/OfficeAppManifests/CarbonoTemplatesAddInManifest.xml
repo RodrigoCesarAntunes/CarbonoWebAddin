@@ -26,8 +26,6 @@
   <!-- Domínios que serão permitidos ao navegar. Por exemplo, se você usar ShowTaskpane e, em seguida, tiver um link href, a navegação só será permitida se o domínio estiver na lista. -->
   <AppDomains>
     <AppDomain>https://microsoft-carbonotemplatesaddin.carbonocorporate.com/</AppDomain>
-    <AppDomain>AppDomain2</AppDomain>
-    <AppDomain>AppDomain3</AppDomain>
   </AppDomains>
   <!--Fim – Configurações Básicas. -->
   
@@ -36,7 +34,7 @@
     <Host Name="Workbook" />
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/" />
+    <SourceLocation DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com" /> <!-- Check-->
   </DefaultSettings>
   <!-- Fim – integração de Modo TaskPane.  -->
 
@@ -115,13 +113,13 @@
     <!-- Você pode usar recursos entre hosts e fatores forma. -->
     <Resources>
       <bt:Images>
-        <bt:Image id="Contoso.tpicon_16x16" DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/Images/Button16x16.png" />
-        <bt:Image id="Contoso.tpicon_32x32" DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/Images/CarbonoIcon32x32.png" />
-        <bt:Image id="Contoso.tpicon_80x80" DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/Images/CarbonoIcon80x80.png" />
+        <bt:Image id="Contoso.tpicon_16x16" DefaultValue="https://localhost:44384/Images/Button16x16.png" />
+        <bt:Image id="Contoso.tpicon_32x32" DefaultValue="https://localhost:44384/Images/CarbonoIcon32x32.png" />
+        <bt:Image id="Contoso.tpicon_80x80" DefaultValue="https://localhost:44384/Images/CarbonoIcon80x80.png" />
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Contoso.DesktopFunctionFile.Url" DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/Functions/FunctionFile.html" />
-        <bt:Url id="Contoso.Taskpane.Url" DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/" />
+        <bt:Url id="Contoso.DesktopFunctionFile.Url" DefaultValue="https://localhost:44384/Functions/FunctionFile.html" />
+        <bt:Url id="Contoso.Taskpane.Url" DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/" /> <!--Check-->
         <bt:Url id="Contoso.GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812" />
       </bt:Urls>
       <!-- número máximo de caracteres em ShortStrings = 125. -->
