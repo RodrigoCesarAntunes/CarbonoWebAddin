@@ -1,2 +1,2 @@
 bin\Debug\OfficeAppManifests\CarbonoTemplatesAddInManifest.xml
-C:\Users\Daniel\Documents\0. Carbono\Microsoft Store\Repositório\CarbonoWebAddin-master\CarbonoTemplatesAddIn\CarbonoTemplatesAddIn\bin\Debug\CarbonoTemplatesAddIn.debugapp
+C:\Users\Rodrigo\Documents\CarbonoRepositorio\CarbonoWebAddin-master\CarbonoTemplatesAddIn\CarbonoTemplatesAddIn\bin\Debug\CarbonoTemplatesAddIn.debugapp
