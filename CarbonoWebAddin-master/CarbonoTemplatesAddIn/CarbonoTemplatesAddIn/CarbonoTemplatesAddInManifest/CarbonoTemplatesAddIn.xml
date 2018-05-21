@@ -22,7 +22,7 @@
   <!-- Ícone para o suplemento. Usado nas telas de instalação e na caixa de diálogo de suplementos. -->
   <IconUrl DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/Images/CarbonoIcon32x32.png" /> <!-- ~remoteAppUrl/Images/Button32x32.png -->
 
-  <HighResolutionIconUrl DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/Images/CarbonoIcon80x80.png"></HighResolutionIconUrl>
+  <HighResolutionIconUrl DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/Images/CarbonoIcon64x64.png"></HighResolutionIconUrl>
 
   <SupportUrl DefaultValue="https://www.carbonocorporate.com/en/faq/licenses/" />
   <!-- Domínios que serão permitidos ao navegar. Por exemplo, se você usar ShowTaskpane e, em seguida, tiver um link href, a navegação só será permitida se o domínio estiver na lista. -->

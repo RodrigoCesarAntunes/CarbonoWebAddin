@@ -93,6 +93,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Images\CarbonoIcon32x32.png" />
+    <Content Include="Images\CarbonoIcon64x64.png" />
     <Content Include="Images\CarbonoIcon80x80.png" />
     <Content Include="Images\Excel_logo.png" />
     <Content Include="Images\Logo.png" />
