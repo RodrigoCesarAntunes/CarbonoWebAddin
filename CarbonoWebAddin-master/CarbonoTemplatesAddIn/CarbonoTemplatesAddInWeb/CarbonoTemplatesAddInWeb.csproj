@@ -101,9 +101,11 @@
     <Content Include="Images\Logo_button_22x22.png" />
     <Content Include="Pages\About.html" />
     <Content Include="Pages\DataGathering.html" />
+    <Content Include="Pages\Info.html" />
     <Content Include="Pages\PortfolioManagement.html" />
     <Content Include="Pages\ProjectManagement.html" />
     <Content Include="Pages_CSS\Common.css" />
+    <Content Include="Pages_CSS\Info.css" />
     <Content Include="Pages_JS\Common.js" />
     <Content Include="Plugins\animsition\dist\css\animsition.css" />
     <Content Include="Plugins\animsition\dist\css\animsition.min.css" />

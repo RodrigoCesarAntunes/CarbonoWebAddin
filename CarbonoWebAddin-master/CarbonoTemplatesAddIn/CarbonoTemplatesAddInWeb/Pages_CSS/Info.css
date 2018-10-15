@@ -1,0 +1,11 @@
+﻿body {
+    max-width: 600px;
+    min-width: 600px;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+#infoAddin {
+    font-family: Calibri;
+    font-size: 15px;
+}

@@ -12,13 +12,15 @@
 
 
 })();
-
+function abrirPopup() {
+    Office.context.ui.displayDialogAsync('https://microsoft-carbonotemplatesaddin.carbonocorporate.com/Pages/About.html', { height: 20, width: 47 }); //https://microsoft-carbonotemplatesaddin.carbonocorporate.com/Pages/About.html
+}
 
 function TemplateDownload(name) {
     var x = new XMLHttpRequest();
     x.open("GET", "../Templates/" + name, true);
     x.responseType = 'blob';
-    x.onload = function (e) { download(x.response, name, "Excel Template for Carbono"); }
+    x.onload = function (e) { download(x.response, name, "Excel Template for Carbono"); };
     x.send();
 }
 

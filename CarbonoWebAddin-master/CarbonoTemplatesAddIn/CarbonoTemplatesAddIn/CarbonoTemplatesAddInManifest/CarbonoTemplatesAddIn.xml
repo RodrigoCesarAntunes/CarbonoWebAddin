@@ -36,14 +36,14 @@
     <Host Name="Workbook" />
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com" /> <!-- Check-->
+    <SourceLocation DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com" /> <!-- Check ~remoteAppUrl/index.html -->
   </DefaultSettings>
   <!-- Fim – integração de Modo TaskPane.  -->
 
   <Permissions>ReadWriteDocument</Permissions>
 
   <!-- Início – Integração do Modo de Comandos do Suplemento. -->
-  <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
+   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
     
     <!-- O nó de Hosts é necessário. -->
     <Hosts>
@@ -121,7 +121,7 @@
       </bt:Images>
       <bt:Urls>
         <bt:Url id="Contoso.DesktopFunctionFile.Url" DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/Functions/FunctionFile.html" />
-        <bt:Url id="Contoso.Taskpane.Url" DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/" /> <!--Check-->
+        <bt:Url id="Contoso.Taskpane.Url" DefaultValue="https://microsoft-carbonotemplatesaddin.carbonocorporate.com/" /> <!--Check ~remoteAppUrl/index.html -->
         <bt:Url id="Contoso.GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812" />
       </bt:Urls>
       <!-- número máximo de caracteres em ShortStrings = 125. -->

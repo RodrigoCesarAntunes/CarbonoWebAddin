@@ -1,6 +1,4 @@
-﻿
-
-body {
+﻿body {
     max-width: 300px;
     min-width: 200px;
 }
@@ -9,11 +7,23 @@ body {
     margin: 10px;
 }
 
+.info-icon{
+    width:30px;
+    height:30px;
+    float:left;
+}
 
 .logo {
         width:110px;        
 }
 
+.info-logo {
+    width: 27px;
+    height: 27px;
+    background-color: #0174DF;
+    border-radius: 50%;
+    text-align:center;
+}
 
 
 .goBack {
@@ -36,6 +46,16 @@ p {
     text-align: justify;
     text-justify: inter-word;
     margin: 10px;
+}
+
+.I-info {
+    font-family: serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-justify:auto;
+    margin-top:6px;
 }
 
 .buttons-container{
