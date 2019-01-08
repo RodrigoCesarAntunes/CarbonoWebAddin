@@ -13,7 +13,7 @@
 
 })();
 function abrirPopup() {
-    Office.context.ui.displayDialogAsync('https://microsoft-carbonotemplatesaddin.carbonocorporate.com/Pages/Info.html', { height: 20, width: 47 }); //https://microsoft-carbonotemplatesaddin.carbonocorporate.com/Pages/About.html
+    Office.context.ui.displayDialogAsync('https://microsoft-carbonotemplatesaddin.carbonocorporate.com/Pages/Info.html', { height: 20, width: 47 });
 }
 
 function TemplateDownload(name) {
